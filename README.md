@@ -1,17 +1,17 @@
-# cra-template-typescript-chrome-extension
+# cra-template-chrome-extension-essentials
 
-This is an unofficial TypeScript Chrome Extension template for [Create React App](https://github.com/facebook/create-react-app).
+This is an unofficial template for [Create React App](https://github.com/facebook/create-react-app) to develop chrome extensions.
 
-To use this template, add `--template typescript-chrome-extension` when creating a new app.
+To use this template, add `--template chrome-extension-essentials` when creating a new app.
 
 For example:
 
 ```sh
-npx create-react-app my-app --template typescript-chrome-extension
+npx create-react-app my-app --template chrome-extension-essentials
 
 # or
 
-yarn create react-app my-app --template typescript-chrome-extension
+yarn create react-app my-app --template chrome-extension-essentials
 ```
 
 ## Additional Scripts
@@ -27,6 +27,15 @@ Install husky and create a pre-commit file which execute `npx lint-staged` befor
 Lint-staged will execute a routine to do, for now it will format all the files using prettier.
 
 You can modify this routine by editing the file `.lintstagedrc` located at the root of the project.
+
+## About this template
+
+Code a chrome extension in no time with those packages:
+
+- Typescript, for clean typed code 👽
+- Husky, Lint-Staged and Prettier, for well formatted code ✨
+- Tailwindcss, utility-first css to fast designing your extension 💅
+- React Lottie, integrate cool animations in your extensions ✌️
 
 For more information, please refer to:
 
