@@ -1,0 +1,38 @@
+{
+  "name": "cra-template-chrome-extension-essentials",
+  "version": "0.0.1",
+  "description": "Template for Create React App with essentials tools to develop chrome extensions.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainlancia/cra-template-typescript-chrome-extension.git"
+  },
+  "keywords": [
+    "react",
+    "chrome-extension",
+    "create-react-app",
+    "typescript",
+    "tailwindcss",
+    "husky",
+    "lint-staged",
+    "prettier"
+  ],
+  "author": "romainlancia",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/romainlancia/cra-template-typescript-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/romainlancia/cra-template-typescript-chrome-extension#readme",
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "scripts": {
+    "prettier": "npx prettier --write --ignore-unknown ."
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
